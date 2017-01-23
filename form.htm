@@ -1,0 +1,62 @@
+<html>
+    <title></title>
+    <style>
+    </style>
+    <body>
+        <h1>"Pimp My Shoes" Contest Entry Form</h1>
+            <p>Want to trade in your old sneakers for a custom pair of Shoes? Make a case for why yours shoes have got to go and you may be one of then lucky winners.</p>
+        <p>Contest Entry Information</p>
+        <form action="action_page.php">
+            Name:
+            <input type="text" name="name" value="">
+            <br>
+            Email:
+            <input type="text" name="email" value="">
+            <br>
+            Phone:<input type="text" name="phone" value="">
+            <br>
+        </form> 
+        <form action="demo_form.asp" id="usrform">
+            My shoes are SO old...
+            </form>
+            <textarea rows="4" cols="50" name="comment" form="usrform"> No more than 300 characters long</textarea>
+            <br>
+        <strong>Design your custom Forcefields:</strong>
+        <p>Custom shoe design</p>
+        <br>
+        <p>Color (choose one):</p>
+        <form action="demo_form.asp" method="get">
+            <input type="radio" name="color" value="Red">Red<br>
+            <input type="radio" name="color" value="Blue" checked>Blue<br>
+            <input type="radio" name="color" value="Black" checked>Black<br>
+            <input type="radio" name="color" value="Silver" checked>Silver<br>
+        </form>
+        <br>
+        <p>Features (choose as many as you want):</p>
+        <form>
+            <input type="checkbox" name="Feature" value="Shoes">Sparkley Laces<br>
+            <input type="checkbox" name="Feature" value="Shoes" checked>Mettalic Logo<br>
+            <input type="checkbox" name="Feature" value="Shoes" checked>Light-up Heels<br>
+            <input type="checkbox" name="Feature" value="Shoes" checked>MP3-enabled<br>
+        </form>
+        <br>
+        <p>Size</p>
+        <p>(Sizes reflect standard men's sizing):</p>
+        <form action="action_page.php">
+                <select name="sizes">
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="Submit"> <input type="reset" value="Refresh">
+        </form>
+    </body>
+</html>
