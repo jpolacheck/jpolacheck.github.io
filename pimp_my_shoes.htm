@@ -1,1 +1,119 @@
+<html>
+
+    <head>
+    
+    <style>
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+        textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+</style>
+<body>
+
+<h2>"Pimp My Shoes" Contest Entry Form</h2>
+    
+<p>Want to trade in your old sneakers for a custom pair of Forcefields? Make a case for why your shoes have got to go and you may be one of ten lucky winners</p>
+
+<div>
+  <form action="action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname">
+      
+    <label for="phone">Phone</label>
+    <input type="text" id="phone" name="Phone">
+      
+      <p>My shoes are SO old..</p>
+      <form>
+  <textarea>No more than 300 characters long</textarea>
+</form>
+
+ <strong>Design your custom Forcefields:</strong>
+        <p>Custom shoe design</p>
+        <br>
+        <p>Color (choose one):</p>
+        <form action="demo_form.asp" method="get">
+            <input type="radio" name="color" value="Red">Red<br>
+            <input type="radio" name="color" value="Blue" checked>Blue<br>
+            <input type="radio" name="color" value="Black" checked>Black<br>
+            <input type="radio" name="color" value="Silver" checked>Silver<br>
+        </form>
+        <br>
+        <p>Features (choose as many as you want):</p>
+        <form>
+            <input type="checkbox" name="Feature" value="SparkleyLaces">Sparkley Laces<br>
+            <input type="checkbox" name="Feature" value="MetallicLogo" checked>Mettalic Logo<br>
+            <input type="checkbox" name="Feature" value="LitHeels" checked>Light-up Heels<br>
+            <input type="checkbox" name="Feature" value="MP3" checked>MP3-enabled<br>
+        </form>
+        <br>
+        <p>Size</p>
+        <p>(Sizes reflect standard men's sizing):</p>
+        <form action="action_page.php">
+                <select name="sizes">
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+            </select>
+            <br>
+        </form>
+            
+      <form action="demo_form.asp" method="get">
+ 
+  <button type="submit" value="Submit">Submit</button>
+  <button type="reset" value="Reset">Reset</button>
+</form>
+
+    
+    
+ </head>
+    
+    
+
+</html>
 
