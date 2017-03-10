@@ -6,10 +6,15 @@
             
             font-family: Georgia, serif;
             font-size: small;
-            line-height: 1.75em;
-            background-image:url(68456359-website-wallpapers.jpg)
-         
+            line-height: 1.75em;       
         }
+  background: url(68456359-website-wallpapers.jpg) no-repeat center center fixed; 
+  background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+ 
+        background-attachment: fixed;
+}
         
         h1{
             font: bold 1.5em "marko one", Georgia, serif; 
